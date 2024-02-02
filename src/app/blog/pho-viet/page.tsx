@@ -11,7 +11,7 @@ import FoodGalleryResto from "@/components/FoodGalleryResto";
 import Image from "next/image";
 
 export default function Home() {
-  const isMobile = useMediaQuery({ maxWidth: 768 });
+  const isMobile = useMediaQuery({ maxWidth: 800 });
 
   return (
     <>
